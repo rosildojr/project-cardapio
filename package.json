@@ -2,17 +2,16 @@
   "name": "project-cardapio",
   "version": "1.0.0",
   "description": "Site de cardápio digital para Rosildo's Burguer",
-  "main": "index.js",
   "scripts": {
-    "dev": "npx @tailwindcss/cli -i ./styles/styles.css -o ./styles/output.css --watch",
-    "build": "npx @tailwindcss/cli -i ./styles/styles.css -o ./styles/output.css --minify"
+    "dev": "@tailwindcss/cli -i ./styles/styles.css -o ./styles/output.css --watch",
+    "build": "tailwindcss -i ./styles/styles.css -o ./styles/output.css --minify"
   },
   "keywords": ["hamburgueria", "delivery", "cardapio"],
   "author": "Rosildo Jr",
   "license": "MIT",
-  "type": "commonjs",
   "dependencies": {
     "@tailwindcss/cli": "^4.2.4",
+    "@tailwindcss/vite": "^4.2.4",
     "tailwindcss": "^4.2.4"
   }
 }
