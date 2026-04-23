@@ -6,7 +6,7 @@ Cardápio digital moderno com carrinho de compras e integração com WhatsApp.
 
 ## 🚀 Acesse o projeto
 
-🔗 https://SEU-LINK-AQUI.vercel.app
+🔗 (https://rosildojr.github.io/project-cardapio/)
 
 ---
 
